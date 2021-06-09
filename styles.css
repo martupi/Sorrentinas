@@ -1,0 +1,151 @@
+.pestañas {
+    background-color: orange;
+    
+}
+
+
+  
+
+    
+ 
+    h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 10px;
+}
+
+.div-botones{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.div-botones button {
+    background-color: rgb(255, 110, 13);
+    color: bisque;
+    border: 20px; border-color: white;
+    width: 40%;
+    font: weight 1000;
+    height: 40%;
+    font-size: large;
+}
+
+
+.lineablanca {
+    background-color: white;
+    height: 20px;
+    margin: 1px;
+}
+
+.lineanaranja {
+    background-color: rgb(255, 110, 13);
+    height: 20px; ;
+    margin: 1px;
+}
+
+
+.fotosinicio {
+    width: 100vw;
+
+}
+
+.fotostriada {
+height: 50%;
+width: 50%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: row;
+
+
+}
+
+.foto1 {
+    background-image: url(/fotosinicio/1SI.JPG);
+    height: 300px;
+    width: 300px;
+
+ }
+
+.foto2 {
+    background-image: url(/fotosinicio/2.jpg);   
+    height: 300px;
+    width: 300px;
+}
+  
+
+.foto3 {
+    background-image: url(/fotosinicio/3.JPG);
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+.div-contacto {
+height: 100px;
+width: 100px;
+margin-bottom: 10%;
+margin-left: 38%;
+font-size: 60px;
+font-family: Arial, Helvetica, sans-serif
+
+}
+
+
+
+
+.redessociales {
+
+    background-color: white;
+    border: none;
+    height: 90px;
+    width: 90px;
+    
+   
+   
+
+
+}
+
+#telefono {
+    height: 90px;
+    width: 90px;
+    margin-left: 130px;
+    border: none;
+   
+
+    
+}
+
+#instagram {
+    
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-left: 115px;
+    border: none;
+    
+    
+
+}
+
+h3 {
+    background-color: rgb(255, 110, 13);
+    height: 100px;
+    width: 60%;
+    color: white;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
